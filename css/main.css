@@ -25,12 +25,15 @@ html {
 }
 
 .banner {
+  max-height: 20em;
+  overflow: hidden;
   position: relative;
 }
 
 .banner-content {
   bottom: 0;
   color: #fff;
+  overflow: hidden;
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
