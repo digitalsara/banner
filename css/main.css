@@ -31,5 +31,7 @@ html {
 .banner-content {
   bottom: 0;
   color: #fff;
+  left: 50%;
   position: absolute;
+  transform: translateX(-50%);
 }
